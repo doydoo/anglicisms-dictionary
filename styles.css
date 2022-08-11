@@ -143,9 +143,9 @@ tbody::-webkit-scrollbar-thumb {
     color: rgb(69, 105, 141);
     padding: 2vw;
 
-    animation-timing-function: ease-in;
+    /* animation-timing-function: ease-in;
 	animation-duration: 1s;
-	animation-name: slidein;
+	animation-name: slidein; */
 }
 
 table {
@@ -162,6 +162,7 @@ td {
     background-color: rgb(204, 228, 249);
     border-radius: 20px;
     transition-duration: 300ms;
+    transition-delay: 100ms;
     cursor: pointer;
 
 }
@@ -181,7 +182,7 @@ td {
     font-style: italic;
 }
 
-@keyframes slidein {
+/* @keyframes slidein {
     0% {
       margin-left: 100%;
       width: 300%;
@@ -190,7 +191,5 @@ td {
     100% {
       margin-left: 0%;
       width: 100%;
-    }
-    
-    
-  }
+    } 
+} */

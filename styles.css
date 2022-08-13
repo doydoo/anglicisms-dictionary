@@ -27,7 +27,6 @@ nav {
 }
 
 a {
-    display: flex;
     padding: 2vw;
     text-decoration: none;
     color: rgb(69, 105, 141);

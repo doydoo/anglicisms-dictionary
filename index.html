@@ -7,14 +7,15 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Студенческий словарь англицизмов</title>
     <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
   </head>
 
-  <body>
+  <body onload="init()">
     <header class="headnav">
         <nav>
             <a class="logo" href="index.html"><h1><b>Студенческий <br> словарь <br> англицизмов</b></h1></a>
             <section class="searchbar" id="searchbar"> 
-                <input class="search" type="search" autofocus placeholder="Введите слово...">
+                <input class="search" id="search" type="search" autofocus placeholder="Введите слово...">
                 <button class="pretty-button"> Поиск </button>
             </section>
             <a class="about" href="about.html">Справка</a>

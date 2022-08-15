@@ -113,6 +113,8 @@ tbody {
     max-height: 70vh;       
     overflow-y: auto;    
     overflow-x: hidden;
+    /* animation: slidein 1s infinite;
+    animation-timing-function: ease-in; */
 }
 
 tbody::-webkit-scrollbar {
@@ -124,7 +126,7 @@ tbody::-webkit-scrollbar-thumb {
     background: rgb(204, 228, 249);
   }
 
-  table {
+table {
     border-collapse: separate;
     box-sizing: border-box;
     text-indent: initial;
@@ -149,17 +151,11 @@ td {
     border-radius: 10px;
     color: rgb(69, 105, 141);
     padding: 2vw;
-    
-
-    /* animation-timing-function: ease-in;
-	animation-duration: 1s;
-	animation-name: slidein; */
 }
 
 .def {
     font-size: larger;
     font-weight: bold;
-    text-decoration: underline;
 }
 
 .content {
@@ -175,12 +171,12 @@ td {
 
 /* @keyframes slidein {
     0% {
-      margin-left: 100%;
-      width: 300%;
+      margin-right: 100%;
+      width: 0%;
     }
     
     100% {
-      margin-left: 0%;
-      width: 100%;
+      margin-right: 0%;
+      width: 0%;
     } 
 } */

@@ -35,6 +35,11 @@ a {
     align-self: flex-start;
 }
 
+.additional {
+    display: flex;
+    justify-content: space-between;
+}
+
 .about {
     text-decoration: underline;
 }
@@ -97,7 +102,7 @@ a {
 
 .search-results {
     position: relative;
-    width: fit-content;
+    width: auto;
     background-color: rgb(223, 236, 247);
     border-radius: 10px;
     color: rgb(69, 105, 141);
